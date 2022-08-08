@@ -26,8 +26,8 @@ spec:
         type: persistent-claim
     availability:
       #type: MultiInstance
-      type: SingleInstance
-      #type: NativeHA
+      #type: SingleInstance
+      type: NativeHA
     resources:
       limits:
         cpu: '1'
@@ -65,11 +65,5 @@ spec:
           items:
             - tls.key
             - tls.crt
-    trust:
-      - name: trust1
-        secret:
-          secretName: tls-eris-trust
-          items:
-            - CSQ9.crt
   imagePullSecrets:
     - name: ibm-entitlement-key
