@@ -19,8 +19,8 @@ spec:
         class: ocs-storage-cluster-ceph-rdbmirror
     availability:
       #type: MultiInstance
-      #type: SingleInstance
-      type: NativeHA
+      type: SingleInstance
+      #type: NativeHA
     resources:
       limits:
         cpu: '1'
