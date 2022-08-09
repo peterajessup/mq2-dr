@@ -16,7 +16,7 @@ spec:
     storage:
       queueManager:
         type: persistent-claim
-        class: ocs-storage-cluster-ceph-rdbmirror
+        class: ocs-storagecluster-ceph-rdbmirror
     availability:
       #type: MultiInstance
       type: SingleInstance
