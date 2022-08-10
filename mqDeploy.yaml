@@ -15,8 +15,7 @@ spec:
     imagePullPolicy: Always
     storage:
       queueManager:
-        type: persistent-claim
-        class: ocs-storagecluster-ceph-rbdmirror
+        enabled: true
     availability:
       #type: MultiInstance
       type: SingleInstance
