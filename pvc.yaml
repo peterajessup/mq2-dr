@@ -1,9 +1,9 @@
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
-  name: data-mq1-ibm-mq-0
+  name: data-mq2-ibm-mq-0
   labels:
-    appname: mq1
+    appname: mq2
 spec:
   accessModes:
   - ReadWriteOnce
